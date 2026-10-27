@@ -1,0 +1,527 @@
+{
+  "schema_version": "1.0",
+  "mission": 1,
+  "research_date": "2026-10-27",
+  "venture": {
+    "name": "Golf Ball Locator",
+    "name_status": "Working product label in supplied PDF; separate business name not specified",
+    "concept": "A golf ball paired with an intuitive mobile app to make lost balls easier to find.",
+    "primary_product": "Proposed smart golf ball with app-based location and an audible signal",
+    "target_customers": "U.S. golfers, from teenagers through older adults, of any gender; the PDF describes upper-middle-income customers or below.",
+    "customer_needs": [
+      "Less frustration searching for balls",
+      "Convenience and perceived value",
+      "Acceptable ball feel and playing performance"
+    ],
+    "value_proposition": "Help golfers locate balls quickly and spend more time enjoying golf.",
+    "geographic_market": "United States primary; Europe and Asia mentioned as possible future markets",
+    "distribution_channels": "Course, club professional and pro-shop partnerships proposed in the PDF; sales channels not finalized.",
+    "features": [
+      "Mobile app pairing",
+      "Proposed audible signal",
+      "Proposed one-tap Find My Ball control"
+    ],
+    "source": "Dalton Ochab.pdf, entire document reviewed; venture statement on page 1 and later research applications",
+    "assumptions": [
+      "Direct online sale is a pricing scenario, not a confirmed distribution decision.",
+      "Benchmark proposed integrated smart balls; no separate receiver assumed in the tentative price.",
+      "Audible signal and simple app use are proposed features; technical performance is unproven."
+    ],
+    "missing_details": [
+      "Separate company name",
+      "Manufacturing costs and margin requirements",
+      "Detection range and battery specifications",
+      "Actual willingness to pay",
+      "Tournament conformance",
+      "Final pack sizes and launch channels"
+    ]
+  },
+  "competitors": [
+    {
+      "competitor_id": "C01",
+      "name": "Chiping",
+      "classification": "Direct",
+      "official_website": "https://chip-ingusa.com/",
+      "geographic_market": "United States storefront; worldwide shipping advertised",
+      "target_customers": "Golfers seeking app-assisted ball recovery, including technology-oriented recreational golfers (analyst interpretation)",
+      "primary_products": "App-connected smart golf balls in 6- and 12-ball sets",
+      "positioning": "Premium smart recovery alternative",
+      "differentiating_features": [
+        "BLE connection to phone; GPS used in app rather than inside ball",
+        "Free companion app",
+        "Four-piece construction claimed by seller"
+      ],
+      "relevance": "Closest observed match to a ball and phone system for finding a lost ball.",
+      "representative_offer_id": "P01",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "operating_evidence": "Active US storefront with product listings and cart controls; fulfillment not tested and stock indicators conflict."
+    },
+    {
+      "competitor_id": "C02",
+      "name": "Callaway",
+      "classification": "Indirect",
+      "official_website": "https://www.callawaygolf.com/",
+      "geographic_market": "United States prices used; international brand",
+      "target_customers": "Recreational golfers seeking soft feel, distance and colored ball options (analyst interpretation)",
+      "primary_products": "Supersoft Yellow and Supersoft Matte Green golf balls",
+      "positioning": "Budget alternative within this selected sample",
+      "differentiating_features": [
+        "Yellow or matte color options",
+        "SoftFast core and hybrid cover",
+        "Standard and personalized options shown"
+      ],
+      "relevance": "A golfer may choose a low-cost colored ball rather than pay for electronic recovery.",
+      "representative_offer_id": "P03",
+      "source_ids": [
+        "S04",
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "operating_evidence": "Official US product pages show In Stock and Add To Cart."
+    },
+    {
+      "competitor_id": "C03",
+      "name": "Volvik",
+      "classification": "Indirect",
+      "official_website": "https://volvik.com/",
+      "geographic_market": "United States storefront",
+      "target_customers": "Golfers with moderate swing speeds who value soft feel and high visibility",
+      "primary_products": "Vivid Soft matte golf balls, including quantity bundles",
+      "positioning": "Mid-market visibility alternative within this sample",
+      "differentiating_features": [
+        "Matte finish promoted for visibility",
+        "Three-piece construction, 70 compression",
+        "Quantity discounts"
+      ],
+      "relevance": "Directly addresses easier tracking and finding through visual contrast rather than electronics.",
+      "representative_offer_id": "P05",
+      "source_ids": [
+        "S08"
+      ],
+      "operating_evidence": "Active current product page with Add to cart and quantity tiers; variant stock not independently confirmed."
+    }
+  ],
+  "pricing_offers": [
+    {
+      "offer_id": "P01",
+      "competitor_id": "C01",
+      "competitor_name": "Chiping",
+      "product_name": "Chiping GPS Tracked Golf Balls - Starter Set - 6 Ball Set",
+      "description": "Smart ball and free phone app; Four-piece construction claimed",
+      "pricing_model": "One-time purchase",
+      "current_price": 199.95,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_unit": "6-ball pack",
+      "billing_period": null,
+      "pack_quantity": 6,
+      "price_per_ball": 33.324999999999996,
+      "price_per_dozen_equivalent": 399.9,
+      "features": [
+        "Smart ball and free phone app",
+        "Four-piece construction claimed"
+      ],
+      "is_representative": true,
+      "comparison_group": "Smart locator balls",
+      "source_id": "S01",
+      "source_url": "https://chip-ingusa.com/products/the-starter",
+      "source_type": "Official US storefront product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "availability": "Conflicting stock indicators",
+      "customization": "Customization pricing not established",
+      "additional_charges": "Tax and shipping excluded; checkout total not tested",
+      "trial_or_freemium": "Free companion app included",
+      "discount": null,
+      "research_notes": "Official listed price verified. Page exposes Sale Sold out plus Add to cart; actual inventory uncertain. Repeated equal prices do not establish a discount. GPS wording is product name; FAQ says BLE in ball, GPS in app."
+    },
+    {
+      "offer_id": "P02",
+      "competitor_id": "C01",
+      "competitor_name": "Chiping",
+      "product_name": "Chiping GPS Tracked Golf Balls - Expert Set - 12 Ball Set",
+      "description": "Smart ball and free phone app; Larger pack",
+      "pricing_model": "One-time purchase",
+      "current_price": 379.95,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_unit": "12-ball pack",
+      "billing_period": null,
+      "pack_quantity": 12,
+      "price_per_ball": 31.662499999999998,
+      "price_per_dozen_equivalent": 379.95,
+      "features": [
+        "Smart ball and free phone app",
+        "Larger pack"
+      ],
+      "is_representative": false,
+      "comparison_group": "Smart locator balls",
+      "source_id": "S02",
+      "source_url": "https://chip-ingusa.com/products/the-expert",
+      "source_type": "Official US storefront product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "availability": "Conflicting stock indicators",
+      "customization": "Customization pricing not established",
+      "additional_charges": "Tax and shipping excluded; checkout total not tested",
+      "trial_or_freemium": "Free companion app included",
+      "discount": "Quantity saving versus two 6-packs; not a verified time-limited promotion",
+      "research_notes": "Official listed price verified; Sale Sold out and Add to cart both exposed. Equal repeated prices are not evidence of a sale. 12-ball pack costs $19.95 less than two Starter sets."
+    },
+    {
+      "offer_id": "P03",
+      "competitor_id": "C02",
+      "competitor_name": "Callaway",
+      "product_name": "Supersoft Yellow Golf Balls",
+      "description": "Yellow finish; SoftFast core; Hybrid cover",
+      "pricing_model": "One-time purchase",
+      "current_price": 26.99,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_unit": "12-ball pack",
+      "billing_period": null,
+      "pack_quantity": 12,
+      "price_per_ball": 2.2491666666666665,
+      "price_per_dozen_equivalent": 26.99,
+      "features": [
+        "Yellow finish",
+        "SoftFast core",
+        "Hybrid cover"
+      ],
+      "is_representative": true,
+      "comparison_group": "Conventional visibility balls",
+      "source_id": "S04",
+      "source_url": "https://www.callawaygolf.com/balls/mens-golf-balls-supersoft/balls-2025-supersoft-yellow.html",
+      "source_type": "Official US product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "availability": "In Stock on official page",
+      "customization": "Standard and personalized options shown; custom price not captured",
+      "additional_charges": "Tax and shipping excluded; checkout total not tested",
+      "trial_or_freemium": "No software trial applicable",
+      "discount": null,
+      "research_notes": "Standard product price. Twelve-ball quantity corroborated by retailer S07. No distinct regular or cash promotional price observed. 3X rewards are loyalty points, not an immediate cash discount."
+    },
+    {
+      "offer_id": "P04",
+      "competitor_id": "C02",
+      "competitor_name": "Callaway",
+      "product_name": "Supersoft Matte Green Golf Balls",
+      "description": "Matte green finish; SoftFast core; Hybrid cover",
+      "pricing_model": "One-time purchase",
+      "current_price": 27.99,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_unit": "12-ball pack",
+      "billing_period": null,
+      "pack_quantity": 12,
+      "price_per_ball": 2.3325,
+      "price_per_dozen_equivalent": 27.990000000000002,
+      "features": [
+        "Matte green finish",
+        "SoftFast core",
+        "Hybrid cover"
+      ],
+      "is_representative": false,
+      "comparison_group": "Conventional visibility balls",
+      "source_id": "S05",
+      "source_url": "https://www.callawaygolf.com/balls/mens-golf-balls-supersoft/balls-2025-supersoft-matte-green.html",
+      "source_type": "Official US product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "availability": "In Stock on official page",
+      "customization": "Standard and personalized options shown; custom price not captured",
+      "additional_charges": "Tax and shipping excluded; checkout total not tested",
+      "trial_or_freemium": "No software trial applicable",
+      "discount": null,
+      "research_notes": "Standard product price; pack count corroborated by S07 product family. Personalized option present but not quoted. Free shipping for Rewards members or orders $150+ with exclusions."
+    },
+    {
+      "offer_id": "P05",
+      "competitor_id": "C03",
+      "competitor_name": "Volvik",
+      "product_name": "Vivid Soft - 1 dozen",
+      "description": "Matte high-visibility finish; Three-piece construction; 70 compression; Surlyn cover",
+      "pricing_model": "One-time purchase",
+      "current_price": 34.99,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_unit": "12-ball pack",
+      "billing_period": null,
+      "pack_quantity": 12,
+      "price_per_ball": 2.9158333333333335,
+      "price_per_dozen_equivalent": 34.99,
+      "features": [
+        "Matte high-visibility finish",
+        "Three-piece construction",
+        "70 compression",
+        "Surlyn cover"
+      ],
+      "is_representative": true,
+      "comparison_group": "Conventional visibility balls",
+      "source_id": "S08",
+      "source_url": "https://volvik.com/products/vivid-soft",
+      "source_type": "Official US product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "availability": "Variant stock uncertain",
+      "customization": "Customization pricing not established",
+      "additional_charges": "Tax and shipping excluded; checkout total not tested",
+      "trial_or_freemium": "No software trial applicable",
+      "discount": null,
+      "research_notes": "Standard one-dozen tier. Page also contains notify-when-available controls; confirm desired color stock. Free shipping on orders over $75."
+    },
+    {
+      "offer_id": "P06",
+      "competitor_id": "C03",
+      "competitor_name": "Volvik",
+      "product_name": "Vivid Soft - 3 dozen bundle",
+      "description": "Matte high-visibility finish; Three-piece construction; 70 compression; Surlyn cover",
+      "pricing_model": "One-time purchase with quantity bundling",
+      "current_price": 94.5,
+      "regular_price": 104.97,
+      "promotional_price": 94.5,
+      "currency": "USD",
+      "pricing_unit": "36-ball pack",
+      "billing_period": null,
+      "pack_quantity": 36,
+      "price_per_ball": 2.625,
+      "price_per_dozen_equivalent": 31.5,
+      "features": [
+        "Matte high-visibility finish",
+        "Three-piece construction",
+        "70 compression",
+        "Surlyn cover"
+      ],
+      "is_representative": false,
+      "comparison_group": "Conventional visibility balls",
+      "source_id": "S08",
+      "source_url": "https://volvik.com/products/vivid-soft",
+      "source_type": "Official US product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "availability": "Variant stock uncertain",
+      "customization": "Customization pricing not established",
+      "additional_charges": "Tax and shipping excluded; checkout total not tested",
+      "trial_or_freemium": "No software trial applicable",
+      "discount": "Advertised Save 10%; computed saving 9.9743% versus displayed comparison value",
+      "research_notes": "Page lists $31.50 per dozen and Save 10%; $104.97 is a displayed comparison value, not proof of a historical selling price. Bundle offer has no verified end date."
+    },
+    {
+      "offer_id": "P07",
+      "competitor_id": "C03",
+      "competitor_name": "Volvik",
+      "product_name": "Vivid Soft - 5 dozen plus 1 free",
+      "description": "Matte high-visibility finish; Three-piece construction; 70 compression; Surlyn cover",
+      "pricing_model": "One-time purchase with quantity bundling",
+      "current_price": 174.95,
+      "regular_price": 209.94,
+      "promotional_price": 174.95,
+      "currency": "USD",
+      "pricing_unit": "72-ball pack",
+      "billing_period": null,
+      "pack_quantity": 72,
+      "price_per_ball": 2.429861111111111,
+      "price_per_dozen_equivalent": 29.15833333333333,
+      "features": [
+        "Matte high-visibility finish",
+        "Three-piece construction",
+        "70 compression",
+        "Surlyn cover"
+      ],
+      "is_representative": false,
+      "comparison_group": "Conventional visibility balls",
+      "source_id": "S08",
+      "source_url": "https://volvik.com/products/vivid-soft",
+      "source_type": "Official US product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "availability": "Variant stock uncertain",
+      "customization": "Customization pricing not established",
+      "additional_charges": "Tax and shipping excluded; checkout total not tested",
+      "trial_or_freemium": "No software trial applicable",
+      "discount": "Buy 5 dozen plus 1 free; 16.6667% below displayed comparison value",
+      "research_notes": "Six dozen total. Page displays $29.16 per dozen and Save 17%; exact normalization is $29.158333. $209.94 is displayed comparison value only. No verified end date."
+    }
+  ],
+  "comparison": {
+    "representative_offer_ids": [
+      "P01",
+      "P03",
+      "P05"
+    ],
+    "groups": [
+      {
+        "group": "Conventional visibility balls",
+        "offer_ids": [
+          "P03",
+          "P05"
+        ],
+        "count": 2,
+        "unit": "USD per 12-ball equivalent",
+        "minimum": 26.99,
+        "maximum": 34.99,
+        "mean": 30.990000000000002,
+        "median": 30.990000000000002,
+        "note": "One representative offer per competitor; no demand weighting. Smart group has one observation and no cross-brand distribution."
+      },
+      {
+        "group": "Smart locator balls",
+        "offer_ids": [
+          "P01"
+        ],
+        "count": 1,
+        "unit": "USD per 12-ball equivalent",
+        "minimum": 399.9,
+        "maximum": 399.9,
+        "mean": 399.9,
+        "median": 399.9,
+        "note": "One representative offer per competitor; no demand weighting. Smart group has one observation and no cross-brand distribution."
+      }
+    ],
+    "all_offer_count": 7,
+    "all_offer_ranges": [
+      {
+        "competitor_id": "C01",
+        "pack_price_min": 199.95,
+        "pack_price_max": 379.95,
+        "per_ball_min": 31.662499999999998,
+        "per_ball_max": 33.324999999999996
+      },
+      {
+        "competitor_id": "C02",
+        "pack_price_min": 26.99,
+        "pack_price_max": 27.99,
+        "per_ball_min": 2.2491666666666665,
+        "per_ball_max": 2.3325
+      },
+      {
+        "competitor_id": "C03",
+        "pack_price_min": 34.99,
+        "pack_price_max": 174.95,
+        "per_ball_min": 2.429861111111111,
+        "per_ball_max": 2.9158333333333335
+      }
+    ],
+    "normalization": "Current pack price / balls in pack; multiply by 12 for dozen equivalent. Equivalent unit prices are not actual separately offered pack prices. No pooled average across smart and conventional groups."
+  },
+  "market_opportunities": [
+    {
+      "observation": "Large price gap between Chiping smart balls and conventional visibility balls.",
+      "interpretation": "Test an intermediate smart-ball price and a small trial pack; the gap alone does not prove unmet demand."
+    },
+    {
+      "observation": "Conventional alternatives emphasize color, soft feel and playing performance.",
+      "interpretation": "Demonstrate comparable feel and distance while showing recovery in rough; add bright colors as an optional feature."
+    },
+    {
+      "observation": "The PDF proposes a simple Find My Ball control; its simulated focus group raised usability concerns.",
+      "interpretation": "Prototype one-tap pairing and an optional audible alert, then test with real golfers. Simulated opinions are hypotheses."
+    },
+    {
+      "observation": "Volvik uses quantity bundles; Chiping has larger pack savings.",
+      "interpretation": "Consider a three-ball starter pack and later replacement packs. Quote customization separately after its cost is known."
+    }
+  ],
+  "preliminary_pricing_recommendation": {
+    "status": "Preliminary analyst recommendation, not an observed competitor price",
+    "currency": "USD",
+    "unit": "per smart ball",
+    "low": 15,
+    "high": 20,
+    "proposed_pack_quantity": 3,
+    "proposed_pack_price_low": 45,
+    "proposed_pack_price_high": 60,
+    "pricing_model": "One-time purchase with basic locator app included at no extra subscription charge (proposed)",
+    "rationale": "Test below Chiping at $33.325 per ball for Starter and $31.6625 for Expert, but above conventional visibility balls. A smaller three-ball pack lowers initial commitment. A simple audible search function and demonstrated ball performance would need to justify the premium.",
+    "position": "About 40-55% below Chiping Starter per ball; roughly 5-9 times the selected conventional representative per-ball prices.",
+    "uncertainties": "Cost feasibility, demand, durability, reliable recovery in rough, battery life, signal range, conformance and app support remain unknown. Competitor evidence alone cannot establish an optimal price."
+  },
+  "research_limitations": [
+    "Three relevant brands and seven selected pricing offers form a purposive sample, not a complete market census. No market-share or demand weighting.",
+    "Listed prices checked October 27, 2026. No purchase or checkout performed. Inventory, tax, shipping, codes and color availability can change.",
+    "Chiping price is verified but inventory is uncertain because storefront output includes both sold-out and cart controls. Active storefront does not establish fulfillment reliability.",
+    "Manufacturer performance claims were not independently tested. No claim that any ball can always be recovered, particularly in water.",
+    "Chiping FAQ states BLE, app GPS, approximately 30 yards/meters (wording is ambiguous), nonrechargeable battery and no submitted official conformance ruling; do not infer tournament approval.",
+    "Conventional visibility balls and smart locator balls are functionally different. Statistics are reported separately even after quantity normalization.",
+    "Blank workbook prices and JSON null mean not established or not separately listed, never zero. Displayed regular comparison prices are not verified historical prices.",
+    "Volvik quantity offers are recorded as promotional bundle prices with no confirmed end date. Its stated 10% and 17% savings are rounded.",
+    "Customization prices were not captured. No separate paid subscription observed for these researched offers; this does not prove no other charges exist.",
+    "The PDF has a broad income and age definition, no finalized company name or technical specifications, and a 39-versus-38 retail-observation count discrepancy. Its AI focus group is fictional and does not validate human demand.",
+    "Mac Desktop path was inaccessible in this environment. Deliverables must be downloaded and placed manually in the requested Phase 1 folder."
+  ],
+  "sources": [
+    {
+      "source_id": "S01",
+      "title": "Chiping Starter product page",
+      "url": "https://chip-ingusa.com/products/the-starter",
+      "source_type": "Official US storefront product page",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S02",
+      "title": "Chiping Expert product page",
+      "url": "https://chip-ingusa.com/products/the-expert",
+      "source_type": "Official US storefront product page",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S03",
+      "title": "Chiping technology and FAQ",
+      "url": "https://chip-ingusa.com/",
+      "source_type": "Official US storefront FAQ",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S04",
+      "title": "Callaway Supersoft Yellow",
+      "url": "https://www.callawaygolf.com/balls/mens-golf-balls-supersoft/balls-2025-supersoft-yellow.html",
+      "source_type": "Official US product page",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S05",
+      "title": "Callaway Supersoft Matte Green",
+      "url": "https://www.callawaygolf.com/balls/mens-golf-balls-supersoft/balls-2025-supersoft-matte-green.html",
+      "source_type": "Official US product page",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S06",
+      "title": "Callaway Supersoft technical sheet",
+      "url": "https://callawaymedia.com/wp-content/uploads/2024/12/CG24_BAL021_2025SuperSoftAssets_SellSheet.pdf",
+      "source_type": "Official manufacturer technical sheet",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S07",
+      "title": "Callaway pack quantity corroboration",
+      "url": "https://www.dickssportinggoods.com/p/callaway-2025-supersoft-golf-balls-25cwyu2025sprsftggbl/25cwyu2025sprsftggbl?color=Yellow",
+      "source_type": "Retailer listing",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S08",
+      "title": "Volvik Vivid Soft pricing and quantity tiers",
+      "url": "https://volvik.com/products/vivid-soft",
+      "source_type": "Official US product page",
+      "date_checked": "2026-10-27"
+    }
+  ],
+  "verification_categories": {
+    "Verified": "Confirmed directly on official product page or authoritative primary source",
+    "Partially_Verified": "Retailer or search-result evidence without full official confirmation",
+    "Estimated": "Explicit estimate, not observed price",
+    "Unavailable": "Reliable public price not established"
+  }
+}
